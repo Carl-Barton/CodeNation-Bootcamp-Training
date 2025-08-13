@@ -1,0 +1,271 @@
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+  
+.libre-baskerville-regular {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+    
+.libre-baskerville-bold {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+    
+.libre-baskerville-regular-italic {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+    
+  
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    font-family:"Note sans", sans-serif;
+}
+  
+
+
+.container-meme-photo1 {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 100px auto; /* Center the div itself */
+}
+  
+.container-meme-photo1 img {
+    border: 5px solid white;
+    max-width: 100%;
+    height: auto;
+}    
+
+.text-overlay1{
+    position: absolute;
+    top: 55%;
+    left: 0;
+    width: 100%; /* Ensures full width */
+    height: 100%; /* Match the container's height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers vertically */
+    align-items: center; /* Centers horizontally */
+    color: white;
+    text-align: center; /* Centers text lines */
+    padding: 10px; /* Add padding to ensure text isn't squished */
+    box-sizing: border-box; /* Includes padding in width/height calculations */
+}
+  
+.container-meme-heading1 {
+    margin: 20px auto; /* Center the divs */
+    text-align: center; /* Center the text */
+    font-size: 25px;
+}
+  
+.container-meme-sentence1 {
+    margin: 25px auto; /* Center the divs */
+    text-align: center; /* Center the text */
+}
+
+  
+
+.container-meme-photo2 {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 100px auto; /* Center the div itself */
+}
+
+.container-meme-photo2 img {
+    border: 5px solid white;
+    max-width: 100%;
+    height: auto;
+}    
+
+.text-overlay2{
+    position: absolute;
+    top: 54%;
+    left: 0;
+    width: 100%; /* Ensures full width */
+    height: 100%; /* Match the container's height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers vertically */
+    align-items: center; /* Centers horizontally */
+    color: white;
+    text-align: center; /* Centers text lines */
+    padding: 10px; /* Add padding to ensure text isn't squished */
+    box-sizing: border-box; /* Includes padding in width/height calculations */
+}
+
+.container-meme-heading2 {
+  margin: 20px auto; /* Center the divs */
+  text-align: center; /* Center the text */
+  font-size: 25px;
+}
+
+.container-meme-sentence2 {
+  margin: 25px auto; /* Center the divs */
+  text-align: center; /* Center the text */
+}  
+
+.container-meme-photo3 {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 100px auto; /* Center the div itself */
+}
+
+.container-meme-photo3 img {
+    border: 5px solid white;
+    max-width: 100%;
+    height: auto;
+}    
+
+.text-overlay3{
+    position: absolute;
+    top: 56%;
+    left: 0;
+    width: 100%; /* Ensures full width */
+    height: 100%; /* Match the container's height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers vertically */
+    align-items: center; /* Centers horizontally */
+    color: white;
+    text-align: center; /* Centers text lines */
+    padding: 10px; /* Add padding to ensure text isn't squished */
+    box-sizing: border-box; /* Includes padding in width/height calculations */
+}
+
+.container-meme-heading3 {
+  margin: 20px auto; /* Center the divs */
+  text-align: center; /* Center the text */
+  font-size: 25px;
+}
+
+.container-meme-sentence3 {
+  margin: 25px auto; /* Center the divs */
+  text-align: center; /* Center the text */
+}
+
+
+.container-meme-photo4 {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 100px auto; /* Center the div itself */
+}
+
+.container-meme-photo4 img {
+    border: 5px solid white;
+    max-width: 100%;
+    height: auto;
+}    
+
+.text-overlay4{
+    position: absolute;
+    top: 55%;
+    left: 0;
+    width: 100%; /* Ensures full width */
+    height: 100%; /* Match the container's height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers vertically */
+    align-items: center; /* Centers horizontally */
+    color: white;
+    text-align: center; /* Centers text lines */
+    padding: 10px; /* Add padding to ensure text isn't squished */
+    box-sizing: border-box; /* Includes padding in width/height calculations */
+}
+
+.container-meme-heading4 {
+  margin: 20px auto; /* Center the divs */
+  text-align: center; /* Center the text */
+  font-size: 25px;
+}
+
+.container-meme-sentence4 {
+  margin: 25px auto; /* Center the divs */
+  text-align: center; /* Center the text */
+}
+
+
+
+.container-meme-photo5 {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 100px auto; /* Center the div itself */
+}
+
+.container-meme-photo5 img {
+    border: 5px solid white;
+    max-width: 100%;
+    height: auto;
+}    
+
+
+.text-overlay5{
+    position: absolute;
+    top: 55%;
+    left: 0;
+    width: 100%; /* Ensures full width */
+    height: 100%; /* Match the container's height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers vertically */
+    align-items: center; /* Centers horizontally */
+    color: white;
+    text-align: center; /* Centers text lines */
+    padding: 10px; /* Add padding to ensure text isn't squished */
+    box-sizing: border-box; /* Includes padding in width/height calculations */
+}
+
+.container-meme-heading5 {
+  margin: 20px auto; /* Center the divs */
+  text-align: center; /* Center the text */
+  font-size: 25px;
+}
+
+.container-meme-sentence5 {
+  margin: 25px auto; /* Center the divs */
+  text-align: center; /* Center the text */
+}
+
+@media (max-width: 600px) {
+    h1.libre-baskerville-regular {
+        font-size: 18px; /* Adjust font size */
+    }
+    p.libre-baskerville-regular {
+        font-size: 14px; /* Adjust font size */
+    }
+    .text-overlay1, .text-overlay2, .text-overlay3, .text-overlay4, .text-overlay5 {
+        padding: 5px; /* Adjust padding for smaller screens */
+    }
+}
+
+.text-content {
+    text-align: center; /* Center the text */
+    color: white;
+    margin-top: 10px; /* Add some spacing between the image and the text */
+    padding: 10px; /* Optional: Add padding for spacing */
+    font-size: 16px; /* Adjust font size as needed */
+}
+
+.container-meme-photo1 img {
+    display: block; /* Ensures the image centers properly */
+    margin: 0 auto; /* Centers the image */
+}    

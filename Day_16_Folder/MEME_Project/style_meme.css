@@ -1,0 +1,76 @@
+*{margin:0;
+  padding:0;
+  list-style: none;
+}
+
+.libre-baskerville-regular {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.libre-baskerville-bold {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+  
+.libre-baskerville-regular-italic {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+  
+
+body{
+    margin:50px auto;
+    font-size: 20px;
+    font-family:"Note sans", sans-serif;
+    font-style: normal;
+    color: white;
+    text-align: center; /* Center text by default */
+}
+
+.container-meme-photo {
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 5px auto; /* Center the div itself */
+}
+
+.container-meme-photo img {
+    border: 5px solid rgb(255, 0, 0);
+    max-width: 100%;
+    height: auto;
+}    
+
+.text-overlay1 {
+    position: absolute;
+    top: 5%;
+    left: 0;
+    width: 100%; /* Ensures full width */
+    height: 100%; /* Ensures full height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers vertically */
+    align-items: center; /* Centers horizontally */
+    color: white;
+    text-align: center; /* Centers text lines */
+    transform: translateY(2%); /* Moves the text slightly lower */
+    padding: 0; /* Remove any extra padding */
+    margin: 0; /* Ensure no additional margin affects alignment */
+}
+
+.container-meme-heading {
+  margin: 20px auto; /* Center the divs */
+  text-align: center; /* Center the text */
+  font-size: 25px;
+}
+
+.container-meme-sentence {
+  margin: 25px auto; /* Center the divs */
+  text-align: center; /* Center the text */
+}
+
+
+  
