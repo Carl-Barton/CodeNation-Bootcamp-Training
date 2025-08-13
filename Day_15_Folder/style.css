@@ -1,0 +1,81 @@
+* {
+    margin:30;
+    padding:0;
+    list-style:none;
+}
+
+body {
+    color: white;
+    font-size: 18
+}
+h1 {
+    color: white;
+    font-size: 50px
+}
+h2 {
+    color: #fc6601;
+    font-size:30px
+}
+h3{
+    color:#ce9cfd
+}
+
+.container-light1 {
+    width:700px;
+    height:180px;
+    background-color: #5b3d6d;
+    padding:20px;
+    margin:25px;
+}
+
+.container-dark1 {
+    width:680px;
+    height:90px;
+    background-color: #34223e; 
+    padding:30px;
+    margin:25px;
+}
+
+.container-light2 {
+    width: 680px;
+    height:490px;
+    background-color: #5b3d6d;
+    padding:30px;
+    margin:25px;
+}
+
+.container-dark2 {
+    width:680px;
+    height:1520px;
+    background-color: #34223e;
+    padding:30px;
+    margin:25px;
+}
+
+.gold {
+    color: gold;
+}
+
+.silver {
+    color: silver;
+}
+
+.bronze {
+    color: #ca6e27
+}
+
+/* .container-games-list-heading{}
+
+.container-movies-list-heading{}
+
+.container-shows-list-heading{}
+
+.container-aboveme-heading{}
+
+.container-myskills-heading{}
+
+.container-myfavouritething-heading{}
+
+.container-threelocations-heading{}
+
+.container-imagesadjustments{} */
