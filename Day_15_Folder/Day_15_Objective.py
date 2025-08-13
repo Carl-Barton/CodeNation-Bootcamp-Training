@@ -21,3 +21,11 @@
 # Video Games 
 # Movies 
 # Places to visit
+
+
+# Side Note, on Day 16 we were given the activity/ task to add more styling to our webpage.
+# The activity was this:
+
+# Objective: Begin styling your website from the last session!
+#            Your styling choices are up to you, as long as your first favourite item in a category is gold,
+#            your second favourite is in silver, and your third favourite is in bronze.
