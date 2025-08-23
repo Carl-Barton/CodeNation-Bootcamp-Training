@@ -25,5 +25,5 @@ print(f"Another core hero of DC is {princess.hero}, who at times has adopted the
 print()
 print(f"Marvel's most famous hero is {webhead.hero}, who's secret identity is {webhead.secret}. His main abilities is {webhead.power} which is really useful when chasing down his rogue's gallery. The villain which arguably has hurt Spider-Man the most is {webhead.arch}.")
 print()
-print(f"Another famous Marvel character is {weaponx.hero}, who goes by the name {weaponx.secret}, though that's not his birthname. His main ability is his {weaponx.power} which has allowed him to not only live longer than the average human, but also help him survived some of his most brutal fights with {weaponx.arch}.")
+print(f"Another famous Marvel character is {weaponx.hero}, who goes by the name {weaponx.secret}, though that's not his birthname. His main ability is his {weaponx.power} which has allowed him to not only live longer than the average human, but also help him survive some of his most brutal fights with {weaponx.arch}.")
 print()
