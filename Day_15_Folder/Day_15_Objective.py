@@ -23,7 +23,7 @@
 # Places to visit
 
 
-# Side Note, on Day 16 we were given the activity/ task to add more styling to our webpage.
+# Side Note, on Day 16 we were given the task to add more styling to our webpage.
 # The activity was this:
 
 # Objective: Begin styling your website from the last session!
