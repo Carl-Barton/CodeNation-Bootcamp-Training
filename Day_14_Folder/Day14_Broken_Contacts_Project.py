@@ -1,5 +1,5 @@
 # Objective: A programming contractor was asked to write a simple Python program which allowed a user to manage their contacts.
-#            However, the contractor became ill and did not complete the program, and some the code written contains errors. 
+#            However, the contractor became ill and did not complete the program, and to make matters worse, some the code written contains errors. 
 #            Your task is to fix and complete the Contacts Python Program.
 # 
 # Your program should allow a user to ADD a new contact, UPDATE and existing contact, DISPLAY all contacts,
@@ -27,17 +27,17 @@ class ContactBook:
             Contact("Bob", "9876543210", "bob@email.com")
         ]
 
-    def add_contact(self, person_name, phone_number, email_address): #Function created to add new contacts to the list of contacts within th contact book
+    def add_contact(self, person_name, phone_number, email_address): # Function created to add new contacts to the list of contacts within th contact book
         # Checking for dupilcates before adding a new contact
         for contact in self.contacts:
             if contact.name == person_name and contact.phone == phone_number and contact.email == email_address:
                 print("This contact already exists in your contact book.")
-                return #Leaving this menu without adding the contact.
+                return # Leaving this menu without adding the contact.
 
        ##################
 
-       #Before adding this from Chat about duplicates, I pasted over what I've would've done, according to Chat, I wasn't far off.
-       #It's just the logic needed slight adjustments. I thought I needed to create a kind of if statement, something on these lines:
+       # Before adding this from Chat about duplicates, I pasted over what I've would've done, according to Chat, I wasn't far off.
+       # It's just the logic needed slight adjustments. I thought I needed to create a kind of if statement, something on these lines:
 
        # if self.contacts.append(Contact(person_name, phone_number, email_address) == Contact(person_name, phone_number, email_address): #don't add contact
        # print("This contact already exists within your contact book")
