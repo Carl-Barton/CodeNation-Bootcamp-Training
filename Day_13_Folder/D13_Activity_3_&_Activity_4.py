@@ -5,8 +5,8 @@
 #    
 
 
-# Activity 4 Objective: Writer a setter to give your superhero a secret lair and
-#                       set a lair for all four of your heroe using the setter
+# Activity 4 Objective: Write a setter to give your superhero a secret lair and
+#                       set a lair for all four of your heroes using the setter.
 
 
 
