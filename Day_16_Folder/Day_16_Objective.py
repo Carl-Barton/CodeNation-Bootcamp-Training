@@ -12,5 +12,5 @@
 # The text shoul be centred aligned
 # Use margins to add space around your content
 
-# Day 16 3rd Activity:
+# Day 16 3rd Activity / Webpage Project Assignment
 # Create a webpage gallery to present your 5 motivational memes, which you need to create as well.
