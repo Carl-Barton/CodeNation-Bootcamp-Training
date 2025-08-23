@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>Edit Todo Task</title>
+</head>
+
+<body>
+    <div>
+        <div class="header-box">
+            <h1>EDIT TASK</h1>
+        </div>
+
+        <!-- Edit Task Form -->
+        <div class="todo-task-bar">  
+            <form action="/edit/{{ todo.id }}" method="post">
+                <!-- <label for="task">Edit Task:</label> -->
+                <input class="wide-box" type="text" id="task" name="task" value="{{ todo.task }}" required>
+                <button class="add-task-box" type="submit">Save Changes</button>
+            </form>
+        </div>
+        <a class="cancel-button" href="/">Cancel</a>
+    </div>
+
+    <div class="handling-message">
+        {% if message2 %}
+            <p>{{message2}}</p>
+        {% endif %}    
+    </div>
+
+</body>
+
+</html>
