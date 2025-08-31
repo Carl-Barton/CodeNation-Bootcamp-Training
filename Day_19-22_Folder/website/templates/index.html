@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>Todo App</title>
+</head>
+
+<body>
+    <div>
+        <div class="header-box">
+            <h1>TO DO LIST</h1>
+        </div>
+
+        <!-- Add Task Form -->
+        <div class="todo-task-bar"> 
+            <form action="/add" method="post">
+                <div>
+                    <!-- <label>Todo task</label> -->
+                    <input class="wide-box" type="text" name="task" placeholder="Enter a Task">
+                    <button class="add-task-box" type="submit">Add Task</button>
+                </div>
+            </form>
+        </div>
+    </div>   
+
+<div class="todo-main-body">
+       
+        <div class="gap-created">
+
+            <!-- Display Task List -->
+            {% for todo in todo_list %}
+            
+            <div class="four-box-plus-black">
+
+                <div class="four-box-plus-date">
+                    
+                    
+                    <div class="two-box-container-1st">
+
+                        <div class="todo-actual-task">
+                            <p> {{ todo.id }} : {{ todo.task }} </p>
+                        </div>
+                    
+                    </div>
+                    
+                    <div class="two-box-container-2nd">
+
+                        <div class="todo-complete-container">
+                            {% if todo.complete == False %}
+                                <p class="complete-container"> Incomplete </p>
+                                <a class="change-container" href="/update/{{todo.id}}">Change?</a></p>
+                            {% elif todo.complete == True %}
+                                <p class="complete-container"> Complete </p>
+                                <a class="change-container" href="/update/{{todo.id}}">Change?</a></p>
+                            {% endif %}
+                        </div>
+                        
+                        <div class="todo-edit-container">
+                            <p><a href="/edit/{{todo.id}}">EDIT</a></p>
+                        </div>
+
+                        <div class="todo-delete-container">
+                            <p><a href="/delete/{{todo.id }}">DELETE</a></p>
+                        </div>
+
+                    </div>
+
+                </div>
+ 
+                <div class="todo-date-created">
+                    <p class="created-on-text"><small>Created On: {{ todo.date_created.strftime('%Y-%m-%d %H:%M:%S') }}</small></p>
+                </div>
+
+            </div>
+            
+            {% endfor %}
+
+            <div class="handling-message">
+            {% if message %}
+                <p>{{message}}</p>
+            {% endif %}    
+            </div>
+
+        </div>
+
+
+</div>
+
+</body>
+
+</html>
